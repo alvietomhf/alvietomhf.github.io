@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { certificate } from '../constants/certificate'
 import { techStack } from '../constants/techstack'
 
@@ -34,7 +34,7 @@ export default function Home() {
   const scrollPosition = useScrollPosition()
 
   return (
-    <div>
+    <Fragment>
       <Head>
         <title>Alvieto Haykal</title>
         <meta name="description" content="Alvieto Haykal Portfolio Website" />
@@ -135,7 +135,7 @@ export default function Home() {
                   alt="Alvieto Haykal"
                   className="relative z-10 mx-auto max-w-full"
                 />
-                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
+                <span className="absolute bottom-0 -scale-110 left-1/2 -translate-x-1/2 sm:scale-125">
                   <svg
                     width="400"
                     height="400"
@@ -166,13 +166,13 @@ export default function Home() {
               <h3 className="mb-5 max-w-md text-2xl font-bold text-white lg:text-3xl">
                 to help your next project
               </h3>
-              <p className="text-base mb-5 font-medium leading-relaxed text-secondary lg:text-lg">
+              <p className="text-base mb-5 font-medium leading-relaxed text-secondary text-justify lg:text-lg">
                 A skilled, competent, and diligent individual, specializing in
                 the backend web development (Laravel - NodeJS/Express/Nest). For
                 the last 2 years, I have been developing applications using PHP,
                 JavaScript, and TypeScript programming languages.
               </p>
-              <p className="text-base mb-5 font-medium leading-relaxed text-secondary lg:text-lg">
+              <p className="text-base mb-5 font-medium leading-relaxed text-secondary text-justify lg:text-lg">
                 I’ve hands on in all stages of the programming cycle, from
                 planning to development and deployment. No two days are the same
                 for me; my tasks may involve analyzing algorithms, altering
@@ -626,6 +626,6 @@ export default function Home() {
       >
         <span className="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
       </button>
-    </div>
+    </Fragment>
   )
 }
