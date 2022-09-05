@@ -135,10 +135,10 @@ export default function Home() {
                   alt="Alvieto Haykal"
                   className="relative z-10 mx-auto max-w-full"
                 />
-                <span className="absolute bottom-0 -scale-110 left-1/2 -translate-x-1/2 sm:scale-125">
+                <span className="absolute -bottom-9 left-1/2 -translate-x-1/2 w-full h-full scale-105">
                   <svg
-                    width="400"
-                    height="400"
+                    width="full"
+                    height="full"
                     viewBox="0 0 200 200"
                     xmlns="http://www.w3.org/2000/svg"
                   >
