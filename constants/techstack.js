@@ -51,27 +51,37 @@ export const techStack = [
   },
   {
     id: 11,
+    url: 'https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white',
+    alt: 'GitHub Actions',
+  },
+  {
+    id: 12,
+    url: 'https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white',
+    alt: 'Gitlab CI',
+  },
+  {
+    id: 13,
     url: 'https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white',
     alt: 'Docker',
   },
 
   {
-    id: 12,
+    id: 14,
     url: 'https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white',
     alt: 'MySQL',
   },
   {
-    id: 13,
+    id: 15,
     url: 'https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white',
     alt: 'Postgres',
   },
   {
-    id: 14,
+    id: 16,
     url: 'https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white',
     alt: 'Redis',
   },
   {
-    id: 15,
+    id: 17,
     url: 'https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white',
     alt: 'RabbitMQ',
   },
