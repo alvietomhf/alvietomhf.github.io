@@ -33,6 +33,13 @@ export default function Home() {
 
   const scrollPosition = useScrollPosition()
 
+  const downloadCV = () => {
+    const dl = document.createElement('a')
+    dl.setAttribute('href', '/Alvieto_CV.pdf')
+    dl.setAttribute('download', 'Alvieto_CV')
+    dl.click()
+  }
+
   return (
     <Fragment>
       <Head>
@@ -121,12 +128,13 @@ export default function Home() {
               <h3 className="mb-14 text-lg font-medium text-secondary lg:text-xl">
                 Indonesia
               </h3>
-              <a
-                href="#"
+              <button
+                type="button"
+                onClick={downloadCV}
                 className="rounded border-2 border-primary py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg"
               >
                 Download CV
-              </a>
+              </button>
             </div>
             <div className="w-full self-end px-4 lg:w-1/2">
               <div className="relative mt-10 lg:right-0 lg:mt-9">
