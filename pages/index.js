@@ -241,7 +241,8 @@ export default function Home() {
                     <li className="group text-white" key={cert.id}>
                       <a
                         href={cert.url}
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                         className="text-base underline text-primary group-hover:text-primary-300"
                       >
                         {cert.title}
@@ -308,6 +309,8 @@ export default function Home() {
                 <a
                   href="https://examz.pro"
                   className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="align-middle mr-1">
                     <i className="ri-links-fill"></i>
@@ -346,13 +349,17 @@ export default function Home() {
                 <a
                   href="https://github.com/alvietomhf/quiz-api"
                   className="text-white hover:text-slate-300 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="align-middle">
                     <i className="ri-github-fill ri-2x"></i>
                   </span>
                 </a>
                 <a
-                  href=""
+                  href="https://quiz.alvieto.site"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
                 >
                   <span className="align-middle mr-1">
@@ -394,14 +401,18 @@ export default function Home() {
                 <a
                   href="https://github.com/alvietomhf/essay"
                   className="text-white hover:text-slate-300 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="align-middle">
                     <i className="ri-github-fill ri-2x"></i>
                   </span>
                 </a>
                 <a
-                  href=""
+                  href="https://essay.alvieto.site"
                   className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="align-middle mr-1">
                     <i className="ri-links-fill"></i>
@@ -442,14 +453,18 @@ export default function Home() {
                   <a
                     href="https://github.com/alvietomhf/test-cpp"
                     className="text-white hover:text-slate-300 transition"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span className="align-middle">
                       <i className="ri-github-fill ri-2x"></i>
                     </span>
                   </a>
                   <a
-                    href=""
+                    href="https://testcpp.alvieto.site"
                     className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span className="align-middle mr-1">
                       <i className="ri-links-fill"></i>
@@ -495,14 +510,18 @@ export default function Home() {
                   <a
                     href="https://github.com/alvietomhf/intern-hunt"
                     className="text-white hover:text-slate-300 transition"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span className="align-middle">
                       <i className="ri-github-fill ri-2x"></i>
                     </span>
                   </a>
                   <a
-                    href=""
+                    href="https://internhunt.alvieto.site"
                     className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <span className="align-middle mr-1">
                       <i className="ri-links-fill"></i>
