@@ -120,13 +120,13 @@ export default function Home() {
                 </span>
               </h1>
               <h2 className="mb-3 text-lg font-medium text-secondary lg:text-2xl">
-                Backend Developer & Web Programmer
+                Fullstack Developer
               </h2>
               <h3 className="text-lg font-medium text-secondary lg:text-xl">
                 From
               </h3>
               <h3 className="mb-14 text-lg font-medium text-secondary lg:text-xl">
-                Indonesia
+                Surabaya, Indonesia
               </h3>
               <button
                 type="button"
@@ -176,7 +176,7 @@ export default function Home() {
               </h3>
               <p className="text-base mb-5 font-medium leading-relaxed text-secondary text-justify lg:text-lg">
                 A skilled, competent, and diligent individual, specializing in
-                the backend web development (Laravel - NodeJS/Express/Nest). For
+                the fullstack web development (Laravel - NodeJS/Express/Nest - ReactJS). For
                 the last 2 years, I have been developing applications using PHP,
                 JavaScript, and TypeScript programming languages.
               </p>
