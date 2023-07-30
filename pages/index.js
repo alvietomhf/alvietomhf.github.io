@@ -45,7 +45,6 @@ export default function Home() {
       <Head>
         <title>Alvieto Haykal</title>
         <meta name="description" content="Alvieto Haykal Portfolio Website" />
-        <meta httpEquiv="Content-Security-Policy" content="default-src 'self' 'http://127.0.0.1:8000'; image-src 'self' 'https://img.shields.io'" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
