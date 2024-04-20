@@ -176,9 +176,10 @@ export default function Home() {
               </h3>
               <p className="text-base mb-5 font-medium leading-relaxed text-secondary text-justify lg:text-lg">
                 A skilled, competent, and diligent individual, specializing in
-                the fullstack web development (Laravel - NodeJS/Express/Nest - ReactJS). For
-                the last 2 years, I have been developing applications using PHP,
-                JavaScript, and TypeScript programming languages.
+                the fullstack web development (Laravel/CI - NodeJS/Express/Nest
+                – ReactJS/Next). For the last 3 years, I have been developing
+                applications using PHP, JavaScript, TypeScript & Go programming
+                languages.
               </p>
               <p className="text-base mb-5 font-medium leading-relaxed text-secondary text-justify lg:text-lg">
                 I’ve hands on in all stages of the programming cycle, from
@@ -357,7 +358,7 @@ export default function Home() {
                   </span>
                 </a>
                 <a
-                  href="https://quiz.alvieto.site"
+                  href="https://quiz.alvietomhf.my.id/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
@@ -371,57 +372,6 @@ export default function Home() {
             </div>
           </div>
           <div className="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-11/12 gap-6 mb-6">
-            <div className="lg:flex-1 lg:w-1/2 border border-primary-300 rounded-md shadow shadow-primary-300 lg:relative">
-              <div className="overflow-hidden rounded-t-md shadow-md">
-                <img
-                  src="/img/portfolio/essay.png"
-                  alt="Landing Page"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-
-              <div className="p-3 lg:mb-16">
-                <h5 className="text-white mb-2 font-bold">
-                  <span className="text-primary mr-2 align-middle">
-                    <i className="ri-arrow-right-circle-line ri-2x"></i>
-                  </span>
-                  Essay Automatic Scoring{' '}
-                  <span className="text-secondary text-sm ml-2">
-                    (Feb 2022 - Apr 2022)
-                  </span>
-                </h5>
-                <p className="text-base font-medium text-secondary text-justify">
-                  This is Student Online Learning System project developed using
-                  Laravel. On this website there is an student essay test where
-                  the assessment method is done automatically using the Rabin
-                  Karp algorithm with a synonym recognition approach.
-                </p>
-              </div>
-              <div className="p-3 lg:absolute lg:bottom-0">
-                <a
-                  href="https://github.com/alvietomhf/essay"
-                  className="text-white hover:text-slate-300 transition"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="align-middle">
-                    <i className="ri-github-fill ri-2x"></i>
-                  </span>
-                </a>
-                <a
-                  href="https://essay.alvieto.site"
-                  className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="align-middle mr-1">
-                    <i className="ri-links-fill"></i>
-                  </span>
-                  Launch
-                </a>
-              </div>
-            </div>
-
             <div className="lg:flex-1 lg:w-1/2 border border-primary-300 rounded-md shadow shadow-primary-300 lg:relative">
               <div className="flex flex-col">
                 <div className="overflow-hidden rounded-t-md shadow-md">
@@ -461,7 +411,7 @@ export default function Home() {
                     </span>
                   </a>
                   <a
-                    href="https://testcpp.alvieto.site"
+                    href="https://testcpp.alvietomhf.my.id"
                     className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -472,6 +422,46 @@ export default function Home() {
                     Launch
                   </a>
                 </div>
+              </div>
+            </div>
+
+            <div className="lg:flex-1 lg:w-1/2 border border-primary-300 rounded-md shadow shadow-primary-300 lg:relative">
+              <div className="overflow-hidden rounded-t-md shadow-md">
+                <img
+                  src="/img/portfolio/essay.png"
+                  alt="Landing Page"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              <div className="p-3 lg:mb-16">
+                <h5 className="text-white mb-2 font-bold">
+                  <span className="text-primary mr-2 align-middle">
+                    <i className="ri-arrow-right-circle-line ri-2x"></i>
+                  </span>
+                  Essay Automatic Scoring{' '}
+                  <span className="text-secondary text-sm ml-2">
+                    (Feb 2022 - Apr 2022)
+                  </span>
+                </h5>
+                <p className="text-base font-medium text-secondary text-justify">
+                  This is Student Online Learning System project developed using
+                  Laravel. On this website there is an student essay test where
+                  the assessment method is done automatically using the Rabin
+                  Karp algorithm with a synonym recognition approach.
+                </p>
+              </div>
+              <div className="p-3 lg:absolute lg:bottom-0">
+                <a
+                  href="https://github.com/alvietomhf/essay"
+                  className="text-white hover:text-slate-300 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="align-middle">
+                    <i className="ri-github-fill ri-2x"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -516,17 +506,6 @@ export default function Home() {
                     <span className="align-middle">
                       <i className="ri-github-fill ri-2x"></i>
                     </span>
-                  </a>
-                  <a
-                    href="https://internhunt.alvieto.site"
-                    className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="align-middle mr-1">
-                      <i className="ri-links-fill"></i>
-                    </span>
-                    Launch
                   </a>
                 </div>
               </div>
@@ -590,7 +569,7 @@ export default function Home() {
               </a>
             </div>
             <p className="text-center text-xs font-medium text-slate-500">
-              © Copyright 2022 - Developed by
+              © Copyright {new Date().getFullYear()} - Developed by
               <a
                 href="mailto: haykalcs@gmail.com"
                 className="font-bold text-primary"
