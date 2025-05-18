@@ -27,8 +27,8 @@ const nextConfig = {
             key: 'Content-Security-Policy',
             value: "default-src 'self' 'http://127.0.0.1:8000'",
           },
-        ]
-      }
+        ],
+      },
     ]
   },
 }

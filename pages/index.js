@@ -176,10 +176,10 @@ export default function Home() {
               </h3>
               <p className="text-base mb-5 font-medium leading-relaxed text-secondary text-justify lg:text-lg">
                 A skilled, competent, and diligent individual, specializing in
-                the fullstack web development (Laravel/CI - NodeJS/Express/Nest
-                – ReactJS/Next). For the last 3 years, I have been developing
-                applications using PHP, JavaScript, TypeScript & Go programming
-                languages.
+                the fullstack web development (Laravel/CI - Go/Fiber -
+                NodeJS/Express/Nest – ReactJS/Next). For the last 3 years, I
+                have been developing applications using PHP, Go, JavaScript &
+                TypeScript programming languages.
               </p>
               <p className="text-base mb-5 font-medium leading-relaxed text-secondary text-justify lg:text-lg">
                 I’ve hands on in all stages of the programming cycle, from
@@ -357,17 +357,6 @@ export default function Home() {
                     <i className="ri-github-fill ri-2x"></i>
                   </span>
                 </a>
-                <a
-                  href="https://quiz.alvietomhf.my.id/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
-                >
-                  <span className="align-middle mr-1">
-                    <i className="ri-links-fill"></i>
-                  </span>
-                  Launch
-                </a>
               </div>
             </div>
           </div>
@@ -409,17 +398,6 @@ export default function Home() {
                     <span className="align-middle">
                       <i className="ri-github-fill ri-2x"></i>
                     </span>
-                  </a>
-                  <a
-                    href="https://testcpp.alvietomhf.my.id"
-                    className="text-white bg-primary p-2 rounded-xl hover:bg-primary-300 hover:text-slate-300 ml-3 transition"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="align-middle mr-1">
-                      <i className="ri-links-fill"></i>
-                    </span>
-                    Launch
                   </a>
                 </div>
               </div>
